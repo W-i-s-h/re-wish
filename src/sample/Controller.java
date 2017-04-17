@@ -24,7 +24,7 @@ public class Controller {
                     a = serialPort.readString(1);
                     serialPort.closePort();
                     System.out.println(a);
-
+                    System.out.println("Хей, получилось");
                 }
                 catch (SerialPortException ex) {
                     System.out.println(ex);
